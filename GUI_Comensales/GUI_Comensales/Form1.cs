@@ -23,7 +23,7 @@ namespace GUI_Comensales
         private void label2_Click(object sender, EventArgs e)
         {
             Application.Exit();
-           
+           //salir
         }
 
         private void Form1_ResizeEnd(object sender, EventArgs e)

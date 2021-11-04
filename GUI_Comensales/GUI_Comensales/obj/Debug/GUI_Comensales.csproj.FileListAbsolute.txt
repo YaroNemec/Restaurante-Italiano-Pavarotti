@@ -8,3 +8,14 @@ C:\Users\Yaro Nemec\Documents\PerDocs\Crecimiento\Estudio\UPB\Cuarto Semestre\In
 C:\Users\Yaro Nemec\Documents\PerDocs\Crecimiento\Estudio\UPB\Cuarto Semestre\Ingeniería de Software\3er Parcial\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.CoreCompileInputs.cache
 C:\Users\Yaro Nemec\Documents\PerDocs\Crecimiento\Estudio\UPB\Cuarto Semestre\Ingeniería de Software\3er Parcial\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.exe
 C:\Users\Yaro Nemec\Documents\PerDocs\Crecimiento\Estudio\UPB\Cuarto Semestre\Ingeniería de Software\3er Parcial\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.pdb
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\GUI_Comensales.exe.config
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\GUI_Comensales.exe
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\GUI_Comensales.pdb
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.AssemblyReference.cache
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Form1.resources
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Properties.Resources.resources
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.GenerateResource.cache
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.exe
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.pdb
+C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Platos.resources
