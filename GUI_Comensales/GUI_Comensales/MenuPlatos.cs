@@ -35,6 +35,7 @@ namespace GUI_Comensales
                 DG_platos.Rows[n].Cells[3].Value = reader.GetString(3);
                 
                //yaro de mrda no sabias como poner las imagenes puto
+               //Que raro que no hayan podido con PRoperties.Resouces.Nombres :U
 
             }
         }
