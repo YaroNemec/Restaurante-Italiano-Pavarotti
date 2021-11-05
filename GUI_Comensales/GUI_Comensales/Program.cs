@@ -16,7 +16,7 @@ namespace GUI_Comensales
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Platos());
+            Application.Run(new MenuPlatos());
         }
     }
 }

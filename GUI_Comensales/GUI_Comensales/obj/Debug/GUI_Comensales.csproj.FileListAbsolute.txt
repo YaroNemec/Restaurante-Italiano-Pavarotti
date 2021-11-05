@@ -19,3 +19,40 @@ C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Com
 C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.exe
 C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.pdb
 C:\Users\Dell\Source\Repos\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Platos.resources
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\GUI_Comensales.exe.config
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\GUI_Comensales.exe
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\GUI_Comensales.pdb
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\BouncyCastle.Crypto.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\Google.Protobuf.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\K4os.Compression.LZ4.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\K4os.Hash.xxHash.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\MySql.Data.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Buffers.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Memory.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Numerics.Vectors.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\Ubiety.Dns.Core.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\ZstdNet.dll
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\Google.Protobuf.pdb
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\Google.Protobuf.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\K4os.Compression.LZ4.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\K4os.Hash.xxHash.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\MySql.Data.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Buffers.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Memory.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Numerics.Vectors.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.AssemblyReference.cache
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Form1.resources
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.MenuPlatos.resources
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Platos.resources
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.Properties.Resources.resources
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.GenerateResource.cache
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.CoreCompileInputs.cache
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.CopyComplete
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.exe
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.pdb
