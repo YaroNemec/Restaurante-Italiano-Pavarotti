@@ -11,31 +11,31 @@ using MySql.Data.MySqlClient;
 
 namespace GUI_Comensales
 {
-    public partial class MenuPlatos : Form
+    public partial class MenuBebidas : Form
     {
         MySqlConnection conexion = Connection.MDBConexion();
-        public MenuPlatos()
+        public MenuBebidas()
         {
             InitializeComponent();
             Desglozar();
         }
         public void Desglozar()
         {
-            string command = "Select imagen, nombrePlato, descripcion, precio from plato where idcategoria = 1;";
+            string command = "Select imagen, nombrePlato, descripcion, precio from plato where idcategoria = 3;";
             MySqlDataReader reader = Connection.Query(command, conexion);
             DG_platos.RowTemplate.Height = 120;
             while (reader.Read())
             {
                 Image imagen = Image.FromFile(reader.GetString(0));
                 int n = DG_platos.Rows.Add();
-                
+
                 DG_platos.Rows[n].Cells[0].Value = imagen;
                 DG_platos.Rows[n].Cells[1].Value = reader.GetString(1);
                 DG_platos.Rows[n].Cells[2].Value = reader.GetString(2);
                 DG_platos.Rows[n].Cells[3].Value = reader.GetString(3);
-                
-               //yaro de mrda no sabias como poner las imagenes puto
-               //Que raro que no hayan podido con PRoperties.Resouces.Nombres :U
+
+                //yaro de mrda no sabias como poner las imagenes puto
+                //Que raro que no hayan podido con PRoperties.Resouces.Nombres :U
 
             }
         }
@@ -44,6 +44,10 @@ namespace GUI_Comensales
         {
 
         }
-    }
 
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
 }

@@ -56,3 +56,5 @@ D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales
 D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.CopyComplete
 D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.exe
 D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.pdb
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.MenuBebidas.resources
+D:\Ing. de Software\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.MenuPostres.resources
