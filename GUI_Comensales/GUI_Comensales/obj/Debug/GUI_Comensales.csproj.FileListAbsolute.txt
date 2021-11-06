@@ -96,3 +96,5 @@ C:\Users\Dell\OneDrive\Documentos\GitHub\Restaurante-Italiano-Pavarotti\GUI_Come
 C:\Users\Dell\OneDrive\Documentos\GitHub\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Dell\OneDrive\Documentos\GitHub\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.MenuPlatos.resources
 C:\Users\Dell\OneDrive\Documentos\GitHub\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.csproj.CopyComplete
+C:\Users\Dell\OneDrive\Documentos\GitHub\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.MenuBebidas.resources
+C:\Users\Dell\OneDrive\Documentos\GitHub\Restaurante-Italiano-Pavarotti\GUI_Comensales\GUI_Comensales\obj\Debug\GUI_Comensales.MenuPostres.resources

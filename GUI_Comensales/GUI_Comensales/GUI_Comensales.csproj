@@ -93,17 +93,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
-    <Compile Include="FacturaResumen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FacturaResumen.Designer.cs">
-      <DependentUpon>FacturaResumen.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuBebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuBebidas.Designer.cs">
+      <DependentUpon>MenuBebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPostres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuPostres.Designer.cs">
+      <DependentUpon>MenuPostres.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPlatos.cs">
       <SubType>Form</SubType>
@@ -121,6 +127,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuBebidas.resx">
+      <DependentUpon>MenuBebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPostres.resx">
+      <DependentUpon>MenuPostres.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPlatos.resx">
       <DependentUpon>MenuPlatos.cs</DependentUpon>

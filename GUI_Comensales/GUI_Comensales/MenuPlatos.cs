@@ -80,8 +80,20 @@ namespace GUI_Comensales
 
         private void siguiente_button_Click(object sender, EventArgs e)
         {
-            FacturaResumen fr = new FacturaResumen();
-            fr.Show();
+            
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            MenuBebidas mb = new MenuBebidas();
+            mb.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.Show();
             this.Hide();
         }
     }
