@@ -17,12 +17,24 @@ namespace GUI_Comensales
             InitializeComponent();
             FormBorderStyle = FormBorderStyle.None;
             WindowState = FormWindowState.Maximized;
-            //int screenx= Screen.PrimaryScreen.Bounds.Width;
-            //int screeny = Screen.PrimaryScreen.Bounds.Height;
-            //menu.Location = new System.Drawing.Point(0,barra.Height);
-            //menu.Size = new System.Drawing.Size(screenx, screeny - 90);
+            menu_button.BackColor = Color.Transparent;
+            //menu_button.FlatAppearance.BorderColor = Color.Transparent;
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+           Form1 principal = new Form1();
+            principal.Show();
+            this.Hide();
+            //this.Dispose();
         }
 
-      
+        private void menu_button_Click(object sender, EventArgs e)
+        {
+            MenuPlatos mp = new MenuPlatos();
+            mp.Show();
+            this.Hide();
+            //this.Dispose();
+
+        }
     }
 }

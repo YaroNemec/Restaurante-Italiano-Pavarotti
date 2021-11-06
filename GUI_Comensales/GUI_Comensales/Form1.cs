@@ -22,6 +22,7 @@ namespace GUI_Comensales
 
         private void label2_Click(object sender, EventArgs e)
         {
+            
             Application.Exit();
            //salir
         }
@@ -48,7 +49,9 @@ namespace GUI_Comensales
 
         private void Btn_Platos_Click(object sender, EventArgs e)
         {
-
+            MenuPlatos mp = new MenuPlatos();
+            mp.Show();
+            this.Hide();
         }
 
         private void Btn_Postres_Click(object sender, EventArgs e)
@@ -59,6 +62,12 @@ namespace GUI_Comensales
         private void Btn_Bebidas_Click(object sender, EventArgs e)
         {
 
+        }
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Platos p = new Platos();
+            p.Show();
+            this.Hide();
         }
     }
 }
