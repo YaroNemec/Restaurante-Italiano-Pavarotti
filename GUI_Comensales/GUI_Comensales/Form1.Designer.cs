@@ -20,7 +20,7 @@ namespace GUI_Comensales
             }
             base.Dispose(disposing);
         }
-
+       
         #region Código generado por el Diseñador de Windows Forms
 
         /// <summary>
@@ -56,7 +56,7 @@ namespace GUI_Comensales
             this.Btn_Platos.BackgroundImage = global::GUI_Comensales.Properties.Resources.Platos;
             this.Btn_Platos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Btn_Platos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.Btn_Platos.Location = new System.Drawing.Point(597, 113);
+            this.Btn_Platos.Location = new System.Drawing.Point(76, 92);
             this.Btn_Platos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Platos.Name = "Btn_Platos";
             this.Btn_Platos.Size = new System.Drawing.Size(189, 166);
@@ -67,7 +67,7 @@ namespace GUI_Comensales
             // Btn_Postres
             // 
             this.Btn_Postres.BackColor = System.Drawing.Color.Black;
-            this.Btn_Postres.Location = new System.Drawing.Point(208, 167);
+            this.Btn_Postres.Location = new System.Drawing.Point(349, 92);
             this.Btn_Postres.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Postres.Name = "Btn_Postres";
             this.Btn_Postres.Size = new System.Drawing.Size(199, 166);
@@ -78,7 +78,7 @@ namespace GUI_Comensales
             // Btn_Bebidas
             // 
             this.Btn_Bebidas.BackColor = System.Drawing.Color.Black;
-            this.Btn_Bebidas.Location = new System.Drawing.Point(348, 73);
+            this.Btn_Bebidas.Location = new System.Drawing.Point(629, 92);
             this.Btn_Bebidas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Bebidas.Name = "Btn_Bebidas";
             this.Btn_Bebidas.Size = new System.Drawing.Size(195, 166);
@@ -139,10 +139,11 @@ namespace GUI_Comensales
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label3.ForeColor = System.Drawing.Color.Yellow;
-            this.label3.Location = new System.Drawing.Point(81, 36);
+            this.label3.Location = new System.Drawing.Point(79, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 17);
+            this.label3.Size = new System.Drawing.Size(50, 20);
             this.label3.TabIndex = 7;
             this.label3.Text = "Carta";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -162,10 +163,11 @@ namespace GUI_Comensales
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(81, 36);
+            this.label2.Location = new System.Drawing.Point(85, 33);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(36, 17);
+            this.label2.Size = new System.Drawing.Size(43, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "Salir";
             this.label2.Click += new System.EventHandler(this.label2_Click);

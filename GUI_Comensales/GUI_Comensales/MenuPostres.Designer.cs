@@ -46,10 +46,6 @@ namespace GUI_Comensales
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DG_postres = new System.Windows.Forms.DataGridView();
-            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -66,6 +62,11 @@ namespace GUI_Comensales
             this.precio_postre = new System.Windows.Forms.Label();
             this.cant_platos = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -79,6 +80,7 @@ namespace GUI_Comensales
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
@@ -106,10 +108,11 @@ namespace GUI_Comensales
             // 
             this.menuplatos.AutoSize = true;
             this.menuplatos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.menuplatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.menuplatos.ForeColor = System.Drawing.Color.Yellow;
-            this.menuplatos.Location = new System.Drawing.Point(56, 36);
+            this.menuplatos.Location = new System.Drawing.Point(53, 36);
             this.menuplatos.Name = "menuplatos";
-            this.menuplatos.Size = new System.Drawing.Size(89, 17);
+            this.menuplatos.Size = new System.Drawing.Size(91, 18);
             this.menuplatos.TabIndex = 7;
             this.menuplatos.Text = "Menú del día";
             this.menuplatos.Click += new System.EventHandler(this.menuplatos_Click);
@@ -129,10 +132,11 @@ namespace GUI_Comensales
             // 
             this.menubebidas.AutoSize = true;
             this.menubebidas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.menubebidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.menubebidas.ForeColor = System.Drawing.Color.Yellow;
-            this.menubebidas.Location = new System.Drawing.Point(41, 36);
+            this.menubebidas.Location = new System.Drawing.Point(40, 36);
             this.menubebidas.Name = "menubebidas";
-            this.menubebidas.Size = new System.Drawing.Size(118, 17);
+            this.menubebidas.Size = new System.Drawing.Size(122, 18);
             this.menubebidas.TabIndex = 7;
             this.menubebidas.Text = "Menú de Bedidas";
             this.menubebidas.Click += new System.EventHandler(this.label6_Click);
@@ -152,10 +156,11 @@ namespace GUI_Comensales
             // 
             this.principal.AutoSize = true;
             this.principal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.principal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.principal.ForeColor = System.Drawing.Color.Yellow;
-            this.principal.Location = new System.Drawing.Point(56, 36);
+            this.principal.Location = new System.Drawing.Point(52, 36);
             this.principal.Name = "principal";
-            this.principal.Size = new System.Drawing.Size(101, 17);
+            this.principal.Size = new System.Drawing.Size(105, 18);
             this.principal.TabIndex = 7;
             this.principal.Text = "Menú Principal";
             this.principal.Click += new System.EventHandler(this.principal_Click);
@@ -233,41 +238,6 @@ namespace GUI_Comensales
             this.DG_postres.Size = new System.Drawing.Size(1159, 683);
             this.DG_postres.TabIndex = 10;
             this.DG_postres.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DG_platos_CellClick);
-            // 
-            // Imagen
-            // 
-            this.Imagen.FillWeight = 72.72728F;
-            this.Imagen.HeaderText = "";
-            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Imagen.MinimumWidth = 6;
-            this.Imagen.Name = "Imagen";
-            this.Imagen.ReadOnly = true;
-            this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // Nombre
-            // 
-            this.Nombre.FillWeight = 72.72728F;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.MinimumWidth = 6;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.FillWeight = 181.8182F;
-            this.Descripcion.HeaderText = "Descripción";
-            this.Descripcion.MinimumWidth = 6;
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.ReadOnly = true;
-            // 
-            // Precio
-            // 
-            this.Precio.FillWeight = 72.72728F;
-            this.Precio.HeaderText = "Precio Bs.";
-            this.Precio.MinimumWidth = 6;
-            this.Precio.Name = "Precio";
-            this.Precio.ReadOnly = true;
             // 
             // label3
             // 
@@ -474,6 +444,53 @@ namespace GUI_Comensales
             this.label5.TabIndex = 13;
             this.label5.Text = "Precio Total";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Font = new System.Drawing.Font("Brush Script MT", 23F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
+            this.label2.Location = new System.Drawing.Point(539, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 48);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Postres";
+            // 
+            // Imagen
+            // 
+            this.Imagen.FillWeight = 72.72728F;
+            this.Imagen.HeaderText = "";
+            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Imagen.MinimumWidth = 6;
+            this.Imagen.Name = "Imagen";
+            this.Imagen.ReadOnly = true;
+            this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Nombre
+            // 
+            this.Nombre.FillWeight = 72.72728F;
+            this.Nombre.HeaderText = "Postre";
+            this.Nombre.MinimumWidth = 6;
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.FillWeight = 181.8182F;
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.MinimumWidth = 6;
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            // 
+            // Precio
+            // 
+            this.Precio.FillWeight = 72.72728F;
+            this.Precio.HeaderText = "Precio Bs.";
+            this.Precio.MinimumWidth = 6;
+            this.Precio.Name = "Precio";
+            this.Precio.ReadOnly = true;
+            // 
             // MenuPostres
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -524,10 +541,6 @@ namespace GUI_Comensales
         private System.Windows.Forms.DataGridView anadidos_dg;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button siguiente_button;
-        private System.Windows.Forms.DataGridViewImageColumn Imagen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label menuplatos;
         private System.Windows.Forms.Panel panel4;
@@ -535,5 +548,10 @@ namespace GUI_Comensales
         private System.Windows.Forms.DataGridViewTextBoxColumn platillo_p;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidad_p;
         private System.Windows.Forms.DataGridViewTextBoxColumn precio_p;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DataGridViewImageColumn Imagen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
     }
 }

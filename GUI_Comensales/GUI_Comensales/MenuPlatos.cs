@@ -23,7 +23,7 @@ namespace GUI_Comensales
         }
         public void Desglozar()
         {
-            string command = "Select imagen, nombrePlato, descripcion, precio from plato";
+            string command = "Select imagen, nombrePlato, descripcion, precio from plato where idcategoria = 1";
             MySqlDataReader reader = Connection.Query(command, conexion);
             DG_platos.RowTemplate.Height = 120;
             while (reader.Read())

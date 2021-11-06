@@ -37,14 +37,15 @@ namespace GUI_Comensales
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.menu_platos = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.menu_postres = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DG_bebidas = new System.Windows.Forms.DataGridView();
-            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -61,24 +62,25 @@ namespace GUI_Comensales
             this.precio_bebida = new System.Windows.Forms.Label();
             this.cant_bebidas = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.menu_postres = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.menu_platos = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DG_bebidas)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.anadidos_dg)).BeginInit();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel2);
@@ -90,6 +92,54 @@ namespace GUI_Comensales
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1486, 82);
             this.panel1.TabIndex = 9;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel5.Controls.Add(this.menu_platos);
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel5.Location = new System.Drawing.Point(886, 0);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 82);
+            this.panel5.TabIndex = 11;
+            // 
+            // menu_platos
+            // 
+            this.menu_platos.AutoSize = true;
+            this.menu_platos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.menu_platos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.menu_platos.ForeColor = System.Drawing.Color.Yellow;
+            this.menu_platos.Location = new System.Drawing.Point(51, 36);
+            this.menu_platos.Name = "menu_platos";
+            this.menu_platos.Size = new System.Drawing.Size(91, 18);
+            this.menu_platos.TabIndex = 7;
+            this.menu_platos.Text = "Menú del día";
+            this.menu_platos.Click += new System.EventHandler(this.menu_platos_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel4.Controls.Add(this.menu_postres);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(1086, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 82);
+            this.panel4.TabIndex = 10;
+            // 
+            // menu_postres
+            // 
+            this.menu_postres.AutoSize = true;
+            this.menu_postres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.menu_postres.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.menu_postres.ForeColor = System.Drawing.Color.Yellow;
+            this.menu_postres.Location = new System.Drawing.Point(47, 36);
+            this.menu_postres.Name = "menu_postres";
+            this.menu_postres.Size = new System.Drawing.Size(121, 18);
+            this.menu_postres.TabIndex = 7;
+            this.menu_postres.Text = "Menú de Postres";
+            this.menu_postres.Click += new System.EventHandler(this.menu_postres_Click);
             // 
             // panel2
             // 
@@ -106,13 +156,26 @@ namespace GUI_Comensales
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
             this.label2.ForeColor = System.Drawing.Color.Yellow;
             this.label2.Location = new System.Drawing.Point(57, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 17);
+            this.label2.Size = new System.Drawing.Size(103, 18);
             this.label2.TabIndex = 7;
             this.label2.Text = "Menú principal";
             this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.Image = global::GUI_Comensales.Properties.Resources.TorreDePitzaJaJa;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(53, 82);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 4;
+            this.pictureBox5.TabStop = false;
             // 
             // label1
             // 
@@ -175,41 +238,6 @@ namespace GUI_Comensales
             this.DG_bebidas.Size = new System.Drawing.Size(1159, 683);
             this.DG_bebidas.TabIndex = 10;
             this.DG_bebidas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DG_platos_CellClick);
-            // 
-            // Imagen
-            // 
-            this.Imagen.FillWeight = 72.72728F;
-            this.Imagen.HeaderText = "";
-            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Imagen.MinimumWidth = 6;
-            this.Imagen.Name = "Imagen";
-            this.Imagen.ReadOnly = true;
-            this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // Nombre
-            // 
-            this.Nombre.FillWeight = 72.72728F;
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.MinimumWidth = 6;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.FillWeight = 181.8182F;
-            this.Descripcion.HeaderText = "Descripción";
-            this.Descripcion.MinimumWidth = 6;
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.ReadOnly = true;
-            // 
-            // Precio
-            // 
-            this.Precio.FillWeight = 72.72728F;
-            this.Precio.HeaderText = "Precio Bs.";
-            this.Precio.MinimumWidth = 6;
-            this.Precio.Name = "Precio";
-            this.Precio.ReadOnly = true;
             // 
             // label3
             // 
@@ -416,63 +444,52 @@ namespace GUI_Comensales
             this.label5.TabIndex = 13;
             this.label5.Text = "Precio Total";
             // 
-            // panel4
+            // label6
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel4.Controls.Add(this.menu_postres);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(1086, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 82);
-            this.panel4.TabIndex = 10;
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label6.Font = new System.Drawing.Font("Brush Script MT", 23F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Yellow;
+            this.label6.Location = new System.Drawing.Point(539, 17);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(126, 48);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Bebidas";
             // 
-            // menu_postres
+            // Imagen
             // 
-            this.menu_postres.AutoSize = true;
-            this.menu_postres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.menu_postres.ForeColor = System.Drawing.Color.Yellow;
-            this.menu_postres.Location = new System.Drawing.Point(47, 36);
-            this.menu_postres.Name = "menu_postres";
-            this.menu_postres.Size = new System.Drawing.Size(115, 17);
-            this.menu_postres.TabIndex = 7;
-            this.menu_postres.Text = "Menú de Postres";
-            this.menu_postres.Click += new System.EventHandler(this.menu_postres_Click);
+            this.Imagen.FillWeight = 72.72728F;
+            this.Imagen.HeaderText = "";
+            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Imagen.MinimumWidth = 6;
+            this.Imagen.Name = "Imagen";
+            this.Imagen.ReadOnly = true;
+            this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // panel5
+            // Nombre
             // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel5.Controls.Add(this.menu_platos);
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel5.Location = new System.Drawing.Point(886, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 82);
-            this.panel5.TabIndex = 11;
+            this.Nombre.FillWeight = 72.72728F;
+            this.Nombre.HeaderText = "Bebida";
+            this.Nombre.MinimumWidth = 6;
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
-            // menu_platos
+            // Descripcion
             // 
-            this.menu_platos.AutoSize = true;
-            this.menu_platos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.menu_platos.ForeColor = System.Drawing.Color.Yellow;
-            this.menu_platos.Location = new System.Drawing.Point(54, 36);
-            this.menu_platos.Name = "menu_platos";
-            this.menu_platos.Size = new System.Drawing.Size(89, 17);
-            this.menu_platos.TabIndex = 7;
-            this.menu_platos.Text = "Menú del día";
-            this.menu_platos.Click += new System.EventHandler(this.menu_platos_Click);
+            this.Descripcion.FillWeight = 181.8182F;
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.MinimumWidth = 6;
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
             // 
-            // pictureBox5
+            // Precio
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::GUI_Comensales.Properties.Resources.TorreDePitzaJaJa;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(53, 82);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            this.Precio.FillWeight = 72.72728F;
+            this.Precio.HeaderText = "Precio Bs.";
+            this.Precio.MinimumWidth = 6;
+            this.Precio.Name = "Precio";
+            this.Precio.ReadOnly = true;
             // 
             // MenuBebidas
             // 
@@ -488,17 +505,17 @@ namespace GUI_Comensales
             this.Text = "MenuPlatos";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DG_bebidas)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.anadidos_dg)).EndInit();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -524,10 +541,6 @@ namespace GUI_Comensales
         private System.Windows.Forms.DataGridView anadidos_dg;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button siguiente_button;
-        private System.Windows.Forms.DataGridViewImageColumn Imagen;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn platillo_p;
         private System.Windows.Forms.DataGridViewTextBoxColumn cantidad_p;
         private System.Windows.Forms.DataGridViewTextBoxColumn precio_p;
@@ -535,5 +548,10 @@ namespace GUI_Comensales
         private System.Windows.Forms.Label menu_platos;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label menu_postres;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridViewImageColumn Imagen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
     }
 }

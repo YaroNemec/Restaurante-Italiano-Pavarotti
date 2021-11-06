@@ -27,10 +27,6 @@ namespace GUI_Comensales
            //salir
         }
 
-        private void Form1_ResizeEnd(object sender, EventArgs e)
-        {
-            Ordenar();
-        }
 
         public void Ordenar()
         {
@@ -56,18 +52,27 @@ namespace GUI_Comensales
 
         private void Btn_Postres_Click(object sender, EventArgs e)
         {
-
+            MenuPostres mps = new MenuPostres();
+            mps.Show();
+            this.Hide();
         }
 
         private void Btn_Bebidas_Click(object sender, EventArgs e)
         {
-
+            MenuBebidas mb = new MenuBebidas();
+            mb.Show();
+            this.Hide();
         }
         private void label3_Click(object sender, EventArgs e)
         {
             Platos p = new Platos();
             p.Show();
             this.Hide();
+        }
+
+        private void Form1_ResizeEnd(object sender, EventArgs e)
+        {
+            Ordenar();
         }
     }
 }
