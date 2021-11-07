@@ -93,6 +93,16 @@ namespace GUI_Comensales.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Caprese {
+            get {
+                object obj = ResourceManager.GetObject("Caprese", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Farinata {
             get {
                 object obj = ResourceManager.GetObject("Farinata", resourceCulture);
@@ -153,6 +163,16 @@ namespace GUI_Comensales.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Marinara1 {
+            get {
+                object obj = ResourceManager.GetObject("Marinara1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Minestrone {
             get {
                 object obj = ResourceManager.GetObject("Minestrone", resourceCulture);
@@ -196,6 +216,16 @@ namespace GUI_Comensales.Properties {
         internal static System.Drawing.Bitmap Risotto {
             get {
                 object obj = ResourceManager.GetObject("Risotto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Tinto {
+            get {
+                object obj = ResourceManager.GetObject("Tinto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

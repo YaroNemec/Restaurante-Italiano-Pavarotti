@@ -130,6 +130,12 @@
   <data name="FondoDeMenús" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FondoDeMenús.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Risotto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Risotto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caprese" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Caprese.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Lasagna" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lasagna.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,6 +154,9 @@
   <data name="7up" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\7up.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Tinto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tinto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Platos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Platos.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -160,7 +169,7 @@
   <data name="TorreDePitzaJaJa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TorreDePitzaJaJa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Risotto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Risotto.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Marinara1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Marinara.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

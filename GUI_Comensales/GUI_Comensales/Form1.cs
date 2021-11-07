@@ -41,6 +41,9 @@ namespace GUI_Comensales
             Btn_Bebidas.Location = new System.Drawing.Point(3 * Screen.PrimaryScreen.Bounds.Width / 16 + 2 * Screen.PrimaryScreen.Bounds.Width / 4, PaddingTopBtn);
             Btn_Bebidas.Size = new System.Drawing.Size(Screen.PrimaryScreen.Bounds.Width / 4, Screen.PrimaryScreen.Bounds.Width / 4);
 
+            label5.Location= label5.Location = new System.Drawing.Point(Screen.PrimaryScreen.Bounds.Width / 16+150, PaddingTopBtn + Screen.PrimaryScreen.Bounds.Width / 4);
+            label6.Location = label6.Location = new System.Drawing.Point(3 * Screen.PrimaryScreen.Bounds.Width / 16 + 2 * Screen.PrimaryScreen.Bounds.Width / +150, PaddingTopBtn + Screen.PrimaryScreen.Bounds.Width / 4);
+            label7.Location = label7.Location = new System.Drawing.Point(2 * Screen.PrimaryScreen.Bounds.Width / 16 + Screen.PrimaryScreen.Bounds.Width / 4+150, PaddingTopBtn + Screen.PrimaryScreen.Bounds.Width / 4);
         }
 
         private void Btn_Platos_Click(object sender, EventArgs e)

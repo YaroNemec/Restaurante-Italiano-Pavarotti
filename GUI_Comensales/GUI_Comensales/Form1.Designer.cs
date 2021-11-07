@@ -35,28 +35,31 @@ namespace GUI_Comensales
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Platos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Postres)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Bebidas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.PanelPrincipal.SuspendLayout();
-            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Btn_Platos
             // 
             this.Btn_Platos.BackColor = System.Drawing.Color.Black;
-            this.Btn_Platos.BackgroundImage = global::GUI_Comensales.Properties.Resources.Platos;
+            this.Btn_Platos.BackgroundImage = global::GUI_Comensales.Properties.Resources.Marinara1;
             this.Btn_Platos.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Btn_Platos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Btn_Platos.Location = new System.Drawing.Point(76, 92);
@@ -70,6 +73,8 @@ namespace GUI_Comensales
             // Btn_Postres
             // 
             this.Btn_Postres.BackColor = System.Drawing.Color.Black;
+            this.Btn_Postres.BackgroundImage = global::GUI_Comensales.Properties.Resources.Tinto;
+            this.Btn_Postres.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Btn_Postres.Location = new System.Drawing.Point(349, 92);
             this.Btn_Postres.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Postres.Name = "Btn_Postres";
@@ -81,6 +86,8 @@ namespace GUI_Comensales
             // Btn_Bebidas
             // 
             this.Btn_Bebidas.BackColor = System.Drawing.Color.Black;
+            this.Btn_Bebidas.BackgroundImage = global::GUI_Comensales.Properties.Resources.Caprese;
+            this.Btn_Bebidas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Btn_Bebidas.Location = new System.Drawing.Point(629, 92);
             this.Btn_Bebidas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Bebidas.Name = "Btn_Bebidas";
@@ -127,6 +134,30 @@ namespace GUI_Comensales
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(896, 82);
             this.panel1.TabIndex = 8;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(296, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 82);
+            this.panel4.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label4.ForeColor = System.Drawing.Color.Yellow;
+            this.label4.Location = new System.Drawing.Point(79, 33);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Ayuda";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel3
             // 
@@ -179,6 +210,9 @@ namespace GUI_Comensales
             // PanelPrincipal
             // 
             this.PanelPrincipal.BackColor = System.Drawing.Color.Transparent;
+            this.PanelPrincipal.Controls.Add(this.label7);
+            this.PanelPrincipal.Controls.Add(this.label6);
+            this.PanelPrincipal.Controls.Add(this.label5);
             this.PanelPrincipal.Controls.Add(this.Btn_Platos);
             this.PanelPrincipal.Controls.Add(this.Btn_Postres);
             this.PanelPrincipal.Controls.Add(this.Btn_Bebidas);
@@ -189,29 +223,38 @@ namespace GUI_Comensales
             this.PanelPrincipal.Size = new System.Drawing.Size(896, 397);
             this.PanelPrincipal.TabIndex = 9;
             // 
-            // panel4
+            // label5
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.panel4.Controls.Add(this.label4);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel4.Location = new System.Drawing.Point(296, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 82);
-            this.panel4.TabIndex = 11;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label5.ForeColor = System.Drawing.Color.Yellow;
+            this.label5.Location = new System.Drawing.Point(150, 285);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 29);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Platos";
             // 
-            // label4
+            // label6
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
-            this.label4.ForeColor = System.Drawing.Color.Yellow;
-            this.label4.Location = new System.Drawing.Point(79, 33);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 20);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Ayuda";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label6.ForeColor = System.Drawing.Color.Yellow;
+            this.label6.Location = new System.Drawing.Point(394, 285);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(102, 29);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Bedidas";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label7.ForeColor = System.Drawing.Color.Yellow;
+            this.label7.Location = new System.Drawing.Point(691, 285);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(95, 29);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Postres";
             // 
             // Form1
             // 
@@ -236,13 +279,14 @@ namespace GUI_Comensales
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.PanelPrincipal.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
+            this.PanelPrincipal.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -262,6 +306,9 @@ namespace GUI_Comensales
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
     }
 }
 
