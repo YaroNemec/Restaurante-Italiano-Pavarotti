@@ -74,5 +74,12 @@ namespace GUI_Comensales
         {
             Ordenar();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Ayuda a = new Ayuda();
+            a.ShowDialog();
+
+        }
     }
 }

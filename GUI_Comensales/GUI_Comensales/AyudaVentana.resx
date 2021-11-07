@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Si la información presentada con anterioridad no le ha sido de ayuda por favor contáctese con
+Soporte al cliente al número 4425786 o 76684214. También puede dejar un comentario en el
+foro de la página web o informar al personal más cercano dentro las instalaciones.</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Según las politicas del restaurante solo se harán devoluciones en los siguientes casos:
+- Si el plato recibido es diferente a lo pedido y no hay posibilidad de cambiarlo
+- Si la aplicación ha aceptado su pedido, pero su factura está incompleta, es decir, no todos 
+  sus pedidos aparecen en la factura. En este caso, contactese con soporte.
+- Si espera más de 30 minutos por su orden
+- Si encuentra un objeto ajeno dentro la comida(pelos, uñas, cáscaras,etc.)
+- Si su orden está fria y no hay posibilidad de cambiarla
+- Si sufre un accidente dentro las instalaciones y algún platillo se le cae. El restaurante
+  le repondra otro.
+
+Si tiene alguna queja o sugerencia por favor hagalo saber en el foro de la página web. Si
+su queja amerita una devolución comuniquese con el personal más inmediato.</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Las formas de pago dependerán del cliente. Puede realizarse mediante tarjeta electronica,
+pago en efectivo o con aplicaciones de banca movil(bnb, banco unión, mercantil Santa Cruz,
+bcp).
+
+Si la aplicación no recibe su tarjeta y cree que es un problema técnico contactese con soporte
+inmediatamente. Si el mensaje es "Se ha producido un error en el servidor" cancele la orden y
+vueva a intentarlo.
+</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>El menú del día es, como el nombre lo dice, el menú del día de hoy. No debe confundirse con
+la carta pues esta muestra los platillos que el restaurante ofrece, pero puede o no ofrecerlos
+el día de hoy. Además, la carta muestra más a detalle las caracteristicas de los platos, por
+lo que puede consultarlo para saber los ingredientes.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Para quitar un platillo, bedida o postre de la lista de pedidos siga los siguientes pasos:
+
+- Seleccione dentro de la lista, el su pedido a eliminar
+- Para comprobar que ha seleccionado el pedido correctamente, toda la fila deberá marcarse
+  de un color distinto al resto
+- Presione la opción "Quitar de la orden"
+- Si los pasos fueron seguidos correctamente, el pedido desaparecerá de la lista
+
+Si un error se presenta, por favor reinicie la pantalla.</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>- Presionar la opción "Menú del día"
+- Elegir un platillo
+- En la parte derecha de la pantalla encontrará detalles de su compra. Ingrese la cantidad
+  de platillos que desea ordenar y luego, presione la opción "Añadir a la orden"
+- El platillo seleccionado, la cantidad y el precio total a pagar aparecerán en la lista de
+  pedidos
+- Finalmente presione "Siguiente" y coloque los datos necesarios y su forma de pago
+- Se generará la factura con sus especificaciones
+
+El procedimiento es el mismo para bebidas y postres.</value>
+  </data>
+</root>

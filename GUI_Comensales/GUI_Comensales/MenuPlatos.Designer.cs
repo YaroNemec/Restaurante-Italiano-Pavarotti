@@ -37,6 +37,7 @@ namespace GUI_Comensales
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -46,6 +47,10 @@ namespace GUI_Comensales
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.DG_platos = new System.Windows.Forms.DataGridView();
+            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -62,11 +67,8 @@ namespace GUI_Comensales
             this.precio_platillo = new System.Windows.Forms.Label();
             this.cant_platos = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.Imagen = new System.Windows.Forms.DataGridViewImageColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -75,11 +77,13 @@ namespace GUI_Comensales
             ((System.ComponentModel.ISupportInitialize)(this.DG_platos)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.anadidos_dg)).BeginInit();
+            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.panel6);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
@@ -92,6 +96,18 @@ namespace GUI_Comensales
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1486, 82);
             this.panel1.TabIndex = 9;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label10.Font = new System.Drawing.Font("Brush Script MT", 23F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Yellow;
+            this.label10.Location = new System.Drawing.Point(539, 15);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(139, 48);
+            this.label10.TabIndex = 12;
+            this.label10.Text = "Platillos";
             // 
             // panel5
             // 
@@ -237,6 +253,41 @@ namespace GUI_Comensales
             this.DG_platos.Size = new System.Drawing.Size(1159, 683);
             this.DG_platos.TabIndex = 10;
             this.DG_platos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DG_platos_CellClick);
+            // 
+            // Imagen
+            // 
+            this.Imagen.FillWeight = 72.72728F;
+            this.Imagen.HeaderText = "";
+            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
+            this.Imagen.MinimumWidth = 6;
+            this.Imagen.Name = "Imagen";
+            this.Imagen.ReadOnly = true;
+            this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // Nombre
+            // 
+            this.Nombre.FillWeight = 72.72728F;
+            this.Nombre.HeaderText = "Platillo";
+            this.Nombre.MinimumWidth = 6;
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
+            // 
+            // Descripcion
+            // 
+            this.Descripcion.FillWeight = 181.8182F;
+            this.Descripcion.HeaderText = "Descripción";
+            this.Descripcion.MinimumWidth = 6;
+            this.Descripcion.Name = "Descripcion";
+            this.Descripcion.ReadOnly = true;
+            // 
+            // Precio
+            // 
+            this.Precio.FillWeight = 72.72728F;
+            this.Precio.HeaderText = "Precio Bs.";
+            this.Precio.MinimumWidth = 6;
+            this.Precio.Name = "Precio";
+            this.Precio.ReadOnly = true;
             // 
             // label3
             // 
@@ -443,52 +494,29 @@ namespace GUI_Comensales
             this.label5.TabIndex = 13;
             this.label5.Text = "Precio Total";
             // 
-            // label10
+            // panel6
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label10.Font = new System.Drawing.Font("Brush Script MT", 23F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Yellow;
-            this.label10.Location = new System.Drawing.Point(539, 15);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(139, 48);
-            this.label10.TabIndex = 12;
-            this.label10.Text = "Platillos";
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel6.Controls.Add(this.label11);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel6.Location = new System.Drawing.Point(686, 0);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(200, 82);
+            this.panel6.TabIndex = 13;
             // 
-            // Imagen
+            // label11
             // 
-            this.Imagen.FillWeight = 72.72728F;
-            this.Imagen.HeaderText = "";
-            this.Imagen.ImageLayout = System.Windows.Forms.DataGridViewImageCellLayout.Zoom;
-            this.Imagen.MinimumWidth = 6;
-            this.Imagen.Name = "Imagen";
-            this.Imagen.ReadOnly = true;
-            this.Imagen.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.Imagen.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // Nombre
-            // 
-            this.Nombre.FillWeight = 72.72728F;
-            this.Nombre.HeaderText = "Platillo";
-            this.Nombre.MinimumWidth = 6;
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // Descripcion
-            // 
-            this.Descripcion.FillWeight = 181.8182F;
-            this.Descripcion.HeaderText = "Descripción";
-            this.Descripcion.MinimumWidth = 6;
-            this.Descripcion.Name = "Descripcion";
-            this.Descripcion.ReadOnly = true;
-            // 
-            // Precio
-            // 
-            this.Precio.FillWeight = 72.72728F;
-            this.Precio.HeaderText = "Precio Bs.";
-            this.Precio.MinimumWidth = 6;
-            this.Precio.Name = "Precio";
-            this.Precio.ReadOnly = true;
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label11.ForeColor = System.Drawing.Color.Yellow;
+            this.label11.Location = new System.Drawing.Point(78, 34);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(48, 18);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Ayuda";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // MenuPlatos
             // 
@@ -515,6 +543,8 @@ namespace GUI_Comensales
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.anadidos_dg)).EndInit();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -552,5 +582,7 @@ namespace GUI_Comensales
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descripcion;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label11;
     }
 }

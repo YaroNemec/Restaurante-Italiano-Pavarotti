@@ -40,6 +40,8 @@ namespace GUI_Comensales
             this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.PanelPrincipal = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Platos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Postres)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Bebidas)).BeginInit();
@@ -48,6 +50,7 @@ namespace GUI_Comensales
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.PanelPrincipal.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // Btn_Platos
@@ -113,6 +116,7 @@ namespace GUI_Comensales
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.pictureBox5);
@@ -185,6 +189,30 @@ namespace GUI_Comensales
             this.PanelPrincipal.Size = new System.Drawing.Size(896, 397);
             this.PanelPrincipal.TabIndex = 9;
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel4.Location = new System.Drawing.Point(296, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 82);
+            this.panel4.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(254)));
+            this.label4.ForeColor = System.Drawing.Color.Yellow;
+            this.label4.Location = new System.Drawing.Point(79, 33);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 20);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Ayuda";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -213,6 +241,8 @@ namespace GUI_Comensales
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.PanelPrincipal.ResumeLayout(false);
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -230,6 +260,8 @@ namespace GUI_Comensales
         private System.Windows.Forms.Panel PanelPrincipal;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label4;
     }
 }
 

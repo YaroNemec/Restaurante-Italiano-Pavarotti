@@ -109,6 +109,12 @@ namespace GUI_Comensales
             form.Show();
             this.Hide();
         }
+
+        private void label6_Click_1(object sender, EventArgs e)
+        {
+            Ayuda a = new Ayuda();
+            a.ShowDialog();
+        }
     }
 
 }
